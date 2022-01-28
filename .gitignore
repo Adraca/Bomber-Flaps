@@ -1,0 +1,22 @@
+# Default Unreal GitIgnore
+Binaries
+DerivedDataCache
+Intermediate
+Saved
+.vscode
+.vs
+*.VC.db
+*.opensdf
+*.opendb
+*.sdf
+*.sln
+*.suo
+*.xcodeproj
+*.xcworkspace
+
+# Ignoring StarterContent
+Content/StarterContent
+Content/AnimalVarietyPack
+Content/Environment_Set
+Content/Brushify
+Brushify_Shaders.png
