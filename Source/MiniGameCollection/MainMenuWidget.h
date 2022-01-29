@@ -20,15 +20,24 @@ protected:
 	UPROPERTY(meta = (BindWidget))
 		class UButton* BomberFlapButton;
 
-	/*UPROPERTY(meta = (BindWidget))
-		class UButton* BomberFlapButton;
+	UPROPERTY(meta = (BindWidget))
+		class UButton* MidgarSnakeButton;
 
 	UPROPERTY(meta = (BindWidget))
-		class UButton* BomberFlapButton;
+		class UButton* SpiderCollapseButton;
 
 	UPROPERTY(meta = (BindWidget))
-		class UButton* BomberFlapButton;*/
+		class UButton* ClickerButton;
 
 	UFUNCTION()
 		void OnBomberFlapButtonClicked();
+
+	UFUNCTION()
+		void OnMidgarSnakeButtonClicked();
+
+	UFUNCTION()
+		void OnSpiderCollapseButtonClicked();
+
+	UFUNCTION()
+		void OnClickerButtonClicked();
 };
